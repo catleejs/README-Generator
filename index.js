@@ -41,10 +41,34 @@ function promptUser() {
             ]
         },
         {
-            
+          type: 'input',
+          name: 'contributions',
+          message: 'Are there any contributors to the project?',  
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Are there any tests included with the project?', 
+        },
+        {
+            type: 'input',
+            name: 'issues',
+            message: 'What is the proper etiquette for reporting issues?',
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'Please enter your GitHub username',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email: ',
         }
-    ])
+    ]);
 }
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
