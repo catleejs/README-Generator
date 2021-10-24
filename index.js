@@ -65,8 +65,11 @@ function promptUser() {
             name: 'email',
             message: 'Please enter your email: ',
         }
-    ]);
+    ])
 }
+
+function init() {
+
 
 
 
